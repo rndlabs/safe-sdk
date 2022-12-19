@@ -61,7 +61,7 @@ pub struct SafeMiddlewareConfig {
     /// True if the middleware should submit to the service, false if it should
     /// only cache proposals
     pub submit_to_service: bool,
-    /// Operation to use if no operation is specifie
+    /// Operation to use if no operation is specified
     pub default_operation: Operations,
     /// Gas refund configuration to use in txns
     pub gas: SafeGasConfig,

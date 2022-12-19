@@ -25,7 +25,9 @@ impl TxService {
 /// ETHEREUM
 pub const ETHEREUM: TxService = TxService::new("https://safe-transaction-mainnet.safe.global/", 1);
 /// XDAI
-pub const XDAI: TxService = TxService::new("https://safe-transaction.xdai.gnosis.io/", 100);
+pub const XDAI: TxService = TxService::new("https://safe-transaction-gnosis-chain.safe.global/", 100);
+/// GOERLI
+pub const GOERLI: TxService = TxService::new("https://safe-transaction-goerli.safe.global", 5);
 /// ARBITRUM
 pub const ARBITRUM: TxService =
     TxService::new("https://safe-transaction.arbitrum.gnosis.io/", 42151);

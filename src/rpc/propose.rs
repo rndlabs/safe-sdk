@@ -195,7 +195,7 @@ impl SafeTransactionData {
         })
     }
 
-    /// Sign the afe Transaction hash and create a safe transaction service
+    /// Sign the safe Transaction hash and create a safe transaction service
     /// Propose request
     pub async fn into_request<S: Signer>(
         self,
