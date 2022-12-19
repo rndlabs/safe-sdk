@@ -176,7 +176,7 @@ impl SafeTransactionData {
     }
 
     /// Sign the safe transaction hash
-    async fn sign<S: Signer>(
+    pub async fn sign<S: Signer>(
         &self,
         signer: &S,
         safe_address: Address,
