@@ -44,8 +44,6 @@ pub const BSC: TxService = TxService::new("https://safe-transaction-bsc.safe.glo
 pub const OPTIMISM: TxService = TxService::new("https://safe-transaction-optimism.safe.global", 10);
 /// POLYGON
 pub const POLYGON: TxService = TxService::new("https://safe-transaction-polygon.safe.global", 137);
-/// GOERLI
-pub const GOERLI: TxService = TxService::new("https://safe-transaction-goerli.safe.global", 5);
 // the heck is an energy web chain smdh
 /// EWC
 pub const EWC: TxService = TxService::new("https://safe-transaction-ewc.safe.global", 246);
